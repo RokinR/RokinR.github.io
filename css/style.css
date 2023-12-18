@@ -1,0 +1,435 @@
+.anim {
+  opacity: 0;
+  transition: 1s;
+}
+
+.anim.show {
+  opacity: 1;
+  transition: 3s;
+}
+
+.zag {
+  text-transform: uppercase; 
+  font-size: 180px; 
+  color: #000000;
+  margin-left: -100px;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 250px;
+}
+.zag1 {
+  text-transform: uppercase;
+  font-size: 173px;
+  color: red;
+  margin-left: -40px;
+  margin-top: -70px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.text {
+  margin-top: 180px;
+  font-size: 20px;
+}
+
+.ser {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.ob {
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.kartinka {
+  width: 600px;
+  filter: brightness(40%);
+}
+
+.zag2 {
+  font-size: 150px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 100px;
+}
+
+.perv, .vtor {
+  width: 35%;
+  margin-left: 50px;
+}
+
+.obuc {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.obuc2 {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.zag3 {
+  font-size: 150px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.manip {
+  margin-left: 260px;
+  width: 150px;
+}
+
+.manip_zag {
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.manip_text {
+  font-family: monospace;
+  align-items: center;
+  font-size: 20px;
+}
+
+.spinoff {
+  width: 150px;
+  margin-top: -10px;
+}
+
+.spinoff_zag {
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.spinoff_text {
+  font-family: monospace;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+.technokerl_zag {
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.technokerl_text {
+  font-family: monospace;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+.zag4 {
+  font-size: 150px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 100px;
+}
+.kerl {
+  color: red;
+  font-family: monospace;
+}
+
+.tech_zag {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+
+.tech_text {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.spin_zag {
+  font-size: 25px;
+  font-family: monospace;
+  color: black;
+}
+
+.spin_text {
+  font-family: monospace;
+  font-size: 20px;
+  color: black;
+}
+
+.zag5 {
+  font-size: 140px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 100px;
+}
+
+.spin {
+  color: red;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.zag6 {
+  font-size: 140px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.manipuls_zag {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.manipuls_text {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.manipuls {
+  color: red;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.zag7 {
+  font-size: 140px; 
+  color: #000000;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 100px;
+}
+
+.bullet {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: li;
+  width: 80%;
+}
+.bullet li {
+  position: relative;
+  margin-bottom: 2.5em;
+  border: 3px solid #CADFCF;
+  padding: 0.6em;
+  border-radius: 4px;
+  color: #231F20;
+  font-family: "Trebuchet MS", "Lucida Sans";
+}
+
+.bullet li:before {
+  position: absolute;
+  top: -1.7em;
+  /* padding-left: 20.4em; */
+  /* padding-right: 0.4em; */
+  font-size: 23px;
+  font-weight: bold;
+  color: #DCC24B;
+  border-radius: 50%;
+  counter-increment: li;
+  content: counter(li);
+}
+
+.spisok {
+  /* margin-left: 410px; */
+}
+
+@media (max-width: 400px) and (max-width: 900px) {
+  .anim {
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .anim.show {
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .zag{
+    font-size: 30px;
+    margin-left: 11px;
+  }
+
+  .zag1{
+    font-size: 20px;
+    margin-left: 29px;
+  }
+
+  .zag2, .zag2, .zag3, .zag4, .zag5, .zag6, .zag7{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 901px) and (max-width: 1100px) {
+  .anim {
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .anim.show {
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .zag{
+    font-size: 50px;
+    margin-left: 11px;
+  }
+
+  .zag1{
+    font-size: 36px;
+    margin-left: 29px;
+    margin-top: -20px;
+  }
+
+  .zag2, .zag2, .zag3, .zag4, .zag5, .zag6, .zag7{
+    font-size: 30px;
+  }
+  .manip_img {
+    width: 50%;
+
+  }
+  .manip_zag {
+    margin-left: 8%;
+  }
+}
+
+.manip_img {
+  margin-left: 35%;
+}
+
+.spin_img {
+  margin-left: 45%;
+}
+
+.technokerl_img {
+  margin-left: 45%;
+}
+
+/* @media (max-width: 770px) {
+  .anim {
+    opacity: 1;
+    transition: 1s;
+  }
+  
+  .anim.show {
+    opacity: 1;
+    transition: 3s;
+  }
+  .zag {
+    font-size: 46px;
+    margin-left: 3px;
+  }
+  .zag1 {
+    font-size: 38px;
+    margin-top: -15px;
+    margin-left: -5px;
+  }
+  .text {
+    flex-wrap: wrap;
+  }
+  .kartinka {
+    width: 90%;
+    margin-left: -11px;
+  }
+  .obs {
+    margin-left: 0px;
+    width: 85%;
+  }
+  .zag2 {
+    font-size: 40px;
+    margin-left: -60px
+  }
+  .onapr {
+    flex-wrap: wrap;
+  }
+  .perv {
+    width: 90%;
+    margin-left: -9px;
+  }
+  .obuc {
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  .onapr2 {
+    flex-wrap: wrap-reverse;
+  }
+  .vtor {
+    width: 90%;
+    margin-left: -7px;
+    margin-top: 70px;
+  }
+  .obuc2 {
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 41px
+  }
+  .zag3 {
+    font-size: 45px;
+    margin-left: -60px;
+  }
+  .manip {
+    margin-left: 100px;
+  }
+  .manip_zag {
+    margin-left: 45px;
+  }
+  .manip_text {
+    margin-left: 55px;
+    width: 80%;
+  }
+  .spinoff {
+    margin-top: 375px;
+    margin-left: -215px;
+  }
+  .spinoff_zag {
+    margin-left: -290px;
+    font-size: 35px;
+  }
+  .spinoff_text {
+    margin-left: -280px;
+    font-size: 23px;
+    margin-right: 55px;
+  }
+  .technokerl {
+    margin-top: 820px;
+    margin-left: -280px;
+  }
+  .technokerl_zag {
+    margin-left: -340px;
+  }
+  .technokerl_text {
+    margin-left: -375px;
+    margin-right: 60px;
+  }
+  .zag4 {
+    font-size: 37px;
+    margin-left: -55px;
+  }
+  .tech_zag {
+    margin-left: -55px;
+  }
+  .tech_text {
+    margin-left: 22px;
+    width: 80%;
+  }
+  .kerl_img {
+    width: 0;
+  }
+  .zag5 {
+    font-size: 35px;
+    margin-left: 5px;
+    width: 80%;
+  }
+  .spin_zag {
+    width: 50%;
+    margin-left: 75px;
+  }
+  .spin_text {
+    width: 80%;
+    margin-left: 20px;
+  }
+  .zag6 {
+    font-size: 38px;
+    margin-left: -60px;
+  }
+  .manipuls_zag {
+    margin-left: -60px;
+  }
+  .manipuls_text {
+    margin-left: -20px;
+  }
+} */
+
